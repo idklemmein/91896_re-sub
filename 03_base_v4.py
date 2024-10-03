@@ -26,10 +26,10 @@ def welcome_message():
           " (toppings are not included in the discount)")
 
 
-# Shows history of the pizzeria
+# Shows history of the Divine Kebab
 def history():
     print('''
-    The Divine Kebab Restaurant traces its roots back to 1000 BC, when nomadic tribes in the Middle East
+     The Divine Kebab Restaurant traces its roots back to 1000 BC, when nomadic tribes in the Middle East
      began skewering and roasting meat over open fires, creating the earliest form of kebabs. This ancient cooking tradition
      was passed down through generations, evolving with regional spices and techniques.
      By the Ottoman Empire, kebabs became a celebrated dish across the Middle East, 
@@ -121,7 +121,7 @@ def order_kebab():
         if kebab_num == "xxx":
             break
         elif kebab_num in kebab_dict:
-            quantity = num_check(f"How many of {kebab_dict[kebab_num]}'s would you like to order? ", 1, 5)
+            quantity = num_check(f"How many {kebab_dict[kebab_num]}'s would you like to order? ", 1, 5)
             size = string_checker("Would you like a regular or large kebab? (r/l): ", ["r", "l"])
             for _ in range(quantity):
                 kebab_count += 1
@@ -288,9 +288,7 @@ def main():
     print("Thank you! Have a nice day.")
 
 
-
 # Set maximum number of kebabs/toppings below
-
 MAX_kebabS = 5
 
 #  kebabs list
@@ -304,7 +302,7 @@ reg_prices = [12.50, 13.00, 12.00, 14.00, 10.50, 11.50, 13.00, 10.00, 13.50, 14.
 # Large kebab prices
 large_prices = [15.00, 16.00, 14.50, 17.00, 13.00, 14.00, 16.00, 12.50, 16.50, 17.50]
 kebab_dict2 = {
-    "****kebabs****": kebabs,
+    "****Kebabs****": kebabs,
     "Regular": reg_prices,
     "Large": large_prices
 }

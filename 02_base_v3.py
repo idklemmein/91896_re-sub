@@ -16,12 +16,12 @@ def string_checker(question, valid_ans):
 # Prints welcome message
 def welcome_message():
 
-    print("                   <--- Welcome to the Dobson Recoil Pizzeria --->")
+    print("                   <--- Welcome to the Divine Kebab --->")
     print("In our kebab place, you will order and eat quality kebabs, made with premium ingredients")
     print("Keep in mind, on our special anniversary event every 3rd kebab is on a 50% discount!!"
           " (toppings are not included in the discount)")
 
-# Shows history of the pizzeria
+# Shows history of the Divine Kebab
 def history():
     print('''
     The Divine Kebab Restaurant traces its roots back to 1000 BC, when nomadic tribes in the Middle East
@@ -282,7 +282,7 @@ def main():
     yes_no = ["yes", "no"]
     pick_del = ["delivery", "pick up"]
 
-    want_history = string_checker("\nWould you like to learn about the history of Dobson Recoil Pizzeria? (y,n): ", 
+    want_history = string_checker("\nWould you like to learn about the history of Divine Kebab? (y,n): ",
                                   yes_no)
     if want_history == "yes":
         history()
@@ -342,7 +342,7 @@ def main():
 
         total_price = calculate_price(price_list, delivery_surcharge)
         process_payment(total_price)
-        print("Thank you for ordering from Dobson Recoil Pizzeria! Your order will be ready soon.")
+        print("Thank you for ordering from The Divine Kebab! Your order will be ready soon.")
     else:
         print("Thank you! Have a nice day.")
 

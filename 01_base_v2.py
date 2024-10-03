@@ -94,7 +94,8 @@ def validate_address(question):
 MAX_kebabS = 5
 # Updated kebabs list
 kebabs = ["Chicken Kebab Wrap", "Lamb Kebab Wrap", "Beef Kebab Wrap", "Mixed Meat Kebab Wrap", "Falafel Kebab Wrap",
-          "Halloumi Kebab Wrap", "Spicy Chicken Kebab Wrap", "Vegetarian Kebab Wrap", "Lamb Kofta Kebab Wrap", "Grilled Fish Kebab Wrap"]
+          "Halloumi Kebab Wrap", "Spicy Chicken Kebab Wrap", "Vegetarian Kebab Wrap", "Lamb Kofta Kebab Wrap",
+          "Grilled Fish Kebab Wrap"]
 
 # Regular kebab prices
 reg_prices = [12.50, 13.00, 12.00, 14.00, 10.50, 11.50, 13.00, 10.00, 13.50, 14.50]

@@ -45,8 +45,7 @@ def show_kebab_menu():
    8. Vegetarian Kebab Wrap      Regular: $10.00       Large: $12.50
    9. Lamb Kofta Kebab Wrap      Regular: $13.50       Large: $16.50
   10. Grilled Fish Kebab Wrap    Regular: $14.50       Large: $17.50
-    Regular: 12"
-    Large: 14"
+
 
     ******************************
     ''')
