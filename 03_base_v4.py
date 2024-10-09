@@ -30,8 +30,8 @@ def welcome_message():
 def history():
     print('''
      The Divine Kebab Restaurant traces its roots back to 1000 BC, when nomadic tribes in the Middle East
-     began skewering and roasting meat over open fires, creating the earliest form of kebabs. This ancient cooking tradition
-     was passed down through generations, evolving with regional spices and techniques.
+     began skewering and roasting meat over open fires, creating the earliest form of kebabs. This ancient cooking 
+     tradition was passed down through generations, evolving with regional spices and techniques.
      By the Ottoman Empire, kebabs became a celebrated dish across the Middle East, 
      eventually making their way to Europe and beyond. The modern-day Divine Kebab Restaurant, 
      founded in 1982, honors this rich history by using traditional recipes and authentic cooking methods. 
@@ -165,6 +165,8 @@ def order_toppings(item_list, quantity_list, price_list, num_kebabs):
     return toppings
 
 # Function to calculate total price
+
+
 def calculate_price(prices, delivery_surcharge):
     total_price = sum(prices)
     total_price += delivery_surcharge
@@ -289,6 +291,8 @@ def main():
 
 
 # Set maximum number of kebabs/toppings below
+
+
 MAX_kebabS = 5
 
 #  kebabs list
@@ -381,3 +385,4 @@ topping_prices = {
 
 if __name__ == "__main__":
     main()
+

@@ -2,10 +2,10 @@ def topping_id_checker(id):
     if id < 1 or id > 10:
         return ("Invalid Topping ID", 0)
     topping_dict = {
-        1: ("Feta Cheese", 1.50), 2: ("Pepperoni", 1.00), 3: ("Mushrooms", 0.75),
-        4: ("Green Peppers", 0.50), 5: ("Black Olives", 0.75), 6: ("Italian Sausage", 1.25),
-        7: ("Red Onions", 0.75), 8: ("Spinach", 1.00), 9: ("Bacon", 1.50),
-        10: ("Tomatoes", 0.75)
+        1: ("Hummus", 2.00), 2: ("Tabbouleh", 1.50), 3: ("Baba Ganoush", 1.50),
+        4: ("Garlic Sauce", 2.50), 5: ("Chili Sauce", 2.30), 6: ("Fried Onions", 3.00),
+        7: ("Pickles", 2.00), 8: ("Feta Cheese", 1.00), 9: ("Grilled Veggies", 3.00),
+        10: ("Pomegranate Molasses", 4.00)
     }
     return topping_dict.get(id, ("Unknown Topping", 0))
 
@@ -29,3 +29,4 @@ topping_order_id = num_check("Please enter the number of the topping you want to
 topping_order_name, topping_cost = topping_id_checker(topping_order_id)
 
 print(f"You have selected {topping_order_name}")
+

@@ -1,4 +1,4 @@
-# this code is used as an I. D checker for both the toppings menu and pizza menu. It checks if the user
+# this code is used as an I. D checker for both the toppings menu and Kebab menu. It checks if the user
 # has entered any number from 1-10, and it will not accept any other number
 def num_check(question, min_value=None, max_value=None):
     while True:
@@ -14,4 +14,4 @@ def num_check(question, min_value=None, max_value=None):
 # Main Routine
 
 user_order_id = (num_check
-                 ("Please enter the number of the pizza you want to order (1-10): ", min_value=1, max_value=10))
+                 ("Please enter the number of the Kebab you want to order (1-10): ", min_value=1, max_value=10))
